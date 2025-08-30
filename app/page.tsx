@@ -25,7 +25,7 @@ export default function HomePage() {
               September 19-20, 2024
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6 bg-gradient-to-r from-cyan-400 to-orange-400 bg-clip-text text-transparent">
-              Hostel Hackathon
+              Hostel Hacks
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 mb-4 text-pretty">Shiv Nadar University Chennai</p>
             <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto text-pretty">
@@ -157,7 +157,7 @@ export default function HomePage() {
       </section>
 
       {/* Problem Themes */}
-      <section className="py-16 bg-slate-900/50">
+      <section className="py-16 bg-slate-900/50" id="problems">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-slate-100">Problem Themes</h2>
@@ -338,7 +338,7 @@ export default function HomePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16">
+      <section className="py-16" id="faq">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-slate-100">
@@ -441,7 +441,7 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-cyan-400 transition-colors">
+                  <a href="#problems" className="hover:text-cyan-400 transition-colors">
                     Problem Statements
                   </a>
                 </li>
@@ -451,17 +451,17 @@ export default function HomePage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/faq" className="hover:text-cyan-400 transition-colors">
+                  <a href="#faq" className="hover:text-cyan-400 transition-colors">
                     FAQs
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4 text-slate-100">Contact</h4>
               <ul className="space-y-2 text-sm text-slate-400">
-                <li>hackathon@snu.edu.in</li>
-                <li>+91 XXX XXX XXXX</li>
+                <li>hostelhacks@snuchennai.edu.in</li>
+                <li>+91 xxx xxxx xxx</li>
                 <li>Shiv Nadar University Chennai</li>
                 <li>Chennai, TN</li>
               </ul>
