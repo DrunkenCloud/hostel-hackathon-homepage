@@ -11,7 +11,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { Calendar, Users, Code, Trophy, Clock, MapPin, Lightbulb, Utensils } from "lucide-react"
+import { Calendar, Users, Code, Trophy, Clock, MapPin, Lightbulb, Utensils, MessageCircle } from "lucide-react"
 import Link from "next/link"
 
 export default function HomePage() {
@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="text-center max-w-4xl mx-auto">
             <Badge className="mb-6 bg-cyan-500/10 text-cyan-400 border-cyan-500/20 text-sm font-medium">
-              September 19-20, 2024
+              January 10-11, 2026
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6 bg-gradient-to-r from-cyan-400 to-orange-400 bg-clip-text text-transparent">
               Hostel Hacks
@@ -74,16 +74,24 @@ export default function HomePage() {
                   </Badge>
                 </div>
                 <CardTitle className="text-xl text-slate-100">Ideation Phase</CardTitle>
-                <CardDescription className="text-base text-slate-400">September 19th</CardDescription>
+                <CardDescription className="text-base text-slate-400">Up to January 10th, 2026</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-slate-300 mb-4">
                   Submit your innovative ideas through online presentation submissions.
                 </p>
-                <div className="flex items-center gap-2 text-sm text-slate-400">
+                <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
                   <Clock className="h-4 w-4" />
-                  <span>Submissions close at 7:00 PM</span>
+                  <span>Submissions close at 7:00 PM on January 10th</span>
                 </div>
+                <Link href="/ideation">
+                  <Button
+                    size="sm"
+                    className="bg-cyan-600 hover:bg-cyan-700 text-white w-full"
+                  >
+                    View Ideation Instructions
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -98,10 +106,10 @@ export default function HomePage() {
                   </Badge>
                 </div>
                 <CardTitle className="text-xl text-slate-100">Coding Day</CardTitle>
-                <CardDescription className="text-base text-slate-400">September 20th</CardDescription>
+                <CardDescription className="text-base text-slate-400">January 11th, 2026</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-slate-300 mb-4">Bring your ideas to life, then present to judges.</p>
+                <p className="text-slate-300 mb-4">Bring your ideas to life, then present to judges. Students can participate online, but at least one teammate must be present offline.</p>
                 <div className="flex items-center gap-2 text-sm text-slate-400 mb-2">
                   <Clock className="h-4 w-4" />
                   <span>Hackathon: 11:00 AM - 6:00 PM</span>
@@ -172,11 +180,11 @@ export default function HomePage() {
                     <div className="p-3 bg-cyan-500/10 rounded-lg w-fit mb-3 group-hover:bg-cyan-500/20 transition-colors">
                       <MapPin className="h-6 w-6 text-cyan-400" />
                     </div>
-                    <CardTitle className="text-xl text-slate-100">Automated Outpass System</CardTitle>
+                    <CardTitle className="text-xl text-slate-100">Room Allocator System</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-400 mb-4">
-                      Streamline the process of requesting and approving hostel outpasses with digital automation.
+                      Smart room allocation based on preferences, compatibility, and availability.
                     </p>
                     <Button
                       variant="outline"
@@ -190,10 +198,10 @@ export default function HomePage() {
               </DialogTrigger>
               <DialogContent className="bg-slate-900 border-slate-700 text-slate-100 max-w-2xl">
                 <DialogHeader>
-                  <DialogTitle className="text-cyan-400 text-xl">Automated Outpass System</DialogTitle>
+                  <DialogTitle className="text-cyan-400 text-xl">Room Allocator System</DialogTitle>
                   <DialogDescription className="text-slate-300 text-base">
-                    Create a comprehensive digital solution for hostel outpass management that eliminates paperwork and
-                    reduces approval time.
+                    Build an intelligent room allocation system that matches students based on compatibility and
+                    preferences.
                   </DialogDescription>
                 </DialogHeader>
                 <div className="space-y-4 text-slate-300">
@@ -201,12 +209,12 @@ export default function HomePage() {
                     <strong>Key Features:</strong>
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-base">
-                    <li>Mobile app for students to request outpasses instantly</li>
-                    <li>Real-time approval workflow for wardens and security</li>
-                    <li>QR code generation for quick entry/exit verification</li>
-                    <li>Automated parent/guardian notifications</li>
-                    <li>Analytics dashboard for hostel administration</li>
-                    <li>Integration with campus security systems</li>
+                    <li>Compatibility matching algorithm based on lifestyle preferences</li>
+                    <li>Room preference selection with virtual tours</li>
+                    <li>Automated room change request processing</li>
+                    <li>Conflict resolution and mediation tools</li>
+                    <li>Integration with academic department data</li>
+                    <li>Real-time room availability tracking</li>
                   </ul>
                 </div>
               </DialogContent>
@@ -261,21 +269,21 @@ export default function HomePage() {
 
             <Dialog>
               <DialogTrigger asChild>
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:border-yellow-500/50 cursor-pointer bg-slate-900 border-slate-800">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:border-green-500/50 cursor-pointer bg-slate-900 border-slate-800">
                   <CardHeader>
-                    <div className="p-3 bg-yellow-500/10 rounded-lg w-fit mb-3 group-hover:bg-yellow-500/20 transition-colors">
-                      <Users className="h-6 w-6 text-yellow-400" />
+                    <div className="p-3 bg-green-500/10 rounded-lg w-fit mb-3 group-hover:bg-green-500/20 transition-colors">
+                      <MessageCircle className="h-6 w-6 text-green-400" />
                     </div>
-                    <CardTitle className="text-xl text-slate-100">Room Allocation System</CardTitle>
+                    <CardTitle className="text-xl text-slate-100">Hostel Internal Chat App</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-400 mb-4">
-                      Smart room allocation based on preferences, compatibility, and availability.
+                      A dedicated communication platform for hostel residents to connect and collaborate.
                     </p>
                     <Button
                       variant="outline"
                       size="sm"
-                      className="group-hover:bg-yellow-600 group-hover:text-white transition-colors bg-transparent border-yellow-500 text-yellow-400"
+                      className="group-hover:bg-green-600 group-hover:text-white transition-colors bg-transparent border-green-500 text-green-400"
                     >
                       Learn More
                     </Button>
@@ -284,10 +292,9 @@ export default function HomePage() {
               </DialogTrigger>
               <DialogContent className="bg-slate-900 border-slate-700 text-slate-100 max-w-2xl">
                 <DialogHeader>
-                  <DialogTitle className="text-yellow-400 text-xl">Room Allocation System</DialogTitle>
+                  <DialogTitle className="text-green-400 text-xl">Hostel Internal Chat App</DialogTitle>
                   <DialogDescription className="text-slate-300 text-base">
-                    Build an intelligent room allocation system that matches students based on compatibility and
-                    preferences.
+                    Create a secure and feature-rich communication platform specifically designed for hostel residents.
                   </DialogDescription>
                 </DialogHeader>
                 <div className="space-y-4 text-slate-300">
@@ -295,12 +302,12 @@ export default function HomePage() {
                     <strong>Key Features:</strong>
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-base">
-                    <li>Compatibility matching algorithm based on lifestyle preferences</li>
-                    <li>Room preference selection with virtual tours</li>
-                    <li>Automated room change request processing</li>
-                    <li>Conflict resolution and mediation tools</li>
-                    <li>Integration with academic department data</li>
-                    <li>Real-time room availability tracking</li>
+                    <li>Floor-wise and block-wise group chats</li>
+                    <li>Anonymous feedback and suggestion channels</li>
+                    <li>Event announcements and reminders</li>
+                    <li>Lost and found marketplace</li>
+                    <li>Study group formation and collaboration tools</li>
+                    <li>Emergency broadcast system for urgent notifications</li>
                   </ul>
                 </div>
               </DialogContent>
@@ -350,7 +357,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto space-y-4">
             <Card className="bg-slate-900 border-slate-800">
               <CardHeader>
-                <CardTitle className="text-lg text-slate-100">I am a B.Com student, can I join?</CardTitle>
+                <CardTitle className="text-lg text-slate-100">I am a non CS student, can I join?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-slate-300">
@@ -371,18 +378,6 @@ export default function HomePage() {
                   Yes! While coding experience is helpful, teams need diverse skills including design, strategy,
                   presentation, and domain knowledge. You can contribute through UI/UX design, business planning, user
                   research, or presentation skills.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-900 border-slate-800">
-              <CardHeader>
-                <CardTitle className="text-lg text-slate-100">What if I don't have a team?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-slate-300">
-                  Don't worry! We'll have a team formation session during registration where you can meet other
-                  participants and form teams based on complementary skills and interests.
                 </p>
               </CardContent>
             </Card>

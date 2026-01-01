@@ -77,20 +77,20 @@ export default function RulesPage() {
               <CardContent className="space-y-4">
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
-                    <h4 className="font-semibold text-cyan-400 mb-2">Ideation Phase - September 19th</h4>
+                    <h4 className="font-semibold text-cyan-400 mb-2">Ideation Phase - Up to January 10th, 2026</h4>
                     <ul className="space-y-2 text-sm text-slate-300">
                       <li>• Submit presentation slides (PPT/PDF) online</li>
-                      <li>• Deadline: 7:00 PM sharp</li>
+                      <li>• Deadline: 7:00 PM sharp on January 10th</li>
                       <li>• Late submissions will not be accepted</li>
                     </ul>
                   </div>
                   <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
-                    <h4 className="font-semibold text-orange-400 mb-2">Coding Day - September 20th</h4>
+                    <h4 className="font-semibold text-orange-400 mb-2">Coding Day - January 11th, 2026</h4>
                     <ul className="space-y-2 text-sm text-slate-300">
                       <li>• Hackathon: 11:00 AM - 6:00 PM</li>
                       <li>• Code submission deadline: 6:00 PM</li>
                       <li>• Presentations & Results: 6:00 PM - 7:30 PM</li>
-                      <li>• Teams must be present at the venue</li>
+                      <li>• Students can participate online, but at least one teammate must be present offline</li>
                     </ul>
                   </div>
                 </div>
