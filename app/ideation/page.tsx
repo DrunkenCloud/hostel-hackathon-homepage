@@ -169,16 +169,36 @@ export default function IdeationPage() {
                 <div>
                   <h4 className="font-semibold text-slate-100 mb-3">Download Sample Presentation</h4>
                   <p className="text-slate-300 mb-4">
-                    Check out our sample presentation to understand the format and structure we're looking for.
+                    Check out our sample presentations to understand the format and structure we're looking for.
                   </p>
-                  <Button
-                    variant="outline"
-                    className="bg-transparent border-cyan-500 text-cyan-400 hover:bg-cyan-500/10"
-                    onClick={() => window.open("https://placeholder-sample-ppt-link.com", "_blank")}
-                  >
-                    <Download className="h-4 w-4 mr-2" />
-                    Download Sample PPT
-                  </Button>
+                  <div className="flex gap-2 flex-wrap">
+                    <Button
+                      variant="outline"
+                      className="bg-transparent border-cyan-500 text-cyan-400 hover:bg-cyan-500/10"
+                      onClick={() => window.open("https://www.slideshare.net/slideshow/hackathon-pitch-deck-template/255823128", "_blank")}
+                    >
+                      <Download className="h-4 w-4 mr-2" />
+                      Pitch Template
+                    </Button>
+
+                    <Button
+                      variant="outline"
+                      className="bg-transparent border-cyan-500 text-cyan-400 hover:bg-cyan-500/10"
+                      onClick={() => window.open("https://slidesgo.com/theme/hackathon-project-proposal", "_blank")}
+                    >
+                      <Download className="h-4 w-4 mr-2" />
+                      Project Proposal
+                    </Button>
+
+                    <Button
+                      variant="outline"
+                      className="bg-transparent border-cyan-500 text-cyan-400 hover:bg-cyan-500/10"
+                      onClick={() => window.open("https://www.slideshare.net/slideshow/sih-hackathon-pptpptx/266309361", "_blank")}
+                    >
+                      <Download className="h-4 w-4 mr-2" />
+                      Real Example
+                    </Button>
+                  </div>
                 </div>
                 
                 <div className="border-t border-slate-700 pt-6">
@@ -189,13 +209,14 @@ export default function IdeationPage() {
                   <Button
                     size="lg"
                     className="bg-cyan-600 hover:bg-cyan-700 text-white"
-                    onClick={() => window.open("https://forms.google.com/placeholder", "_blank")}
+                    onClick={() => window.open("https://bit.ly/hostel-hacks", "_blank")}
                   >
                     <Send className="h-4 w-4 mr-2" />
                     Submit Your Idea
                   </Button>
                 </div>
               </CardContent>
+
             </Card>
 
             {/* Important Notes */}

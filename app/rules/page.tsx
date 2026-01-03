@@ -90,7 +90,7 @@ export default function RulesPage() {
                       <li>• Hackathon: 11:00 AM - 6:00 PM</li>
                       <li>• Code submission deadline: 6:00 PM</li>
                       <li>• Presentations & Results: 6:00 PM - 7:30 PM</li>
-                      <li>• Students can participate online, but at least one teammate must be present offline</li>
+                      <li>• At least 1 team member must be present offline; others can participate online</li>
                     </ul>
                   </div>
                 </div>
@@ -116,6 +116,10 @@ export default function RulesPage() {
                   <li className="flex items-start gap-3">
                     <CheckCircle className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />
                     Open source libraries and APIs are allowed
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />
+                    AI tools and assistants are allowed and encouraged
                   </li>
                   <li className="flex items-start gap-3">
                     <AlertCircle className="h-5 w-5 text-yellow-400 mt-0.5 flex-shrink-0" />

@@ -36,7 +36,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="bg-cyan-600 hover:bg-cyan-700 text-white"
-                onClick={() => window.open("https://google.com", "_blank")}
+                onClick={() => window.open("https://bit.ly/hostel-hacks", "_blank")}
               >
                 Register Your Team Now
               </Button>
@@ -109,7 +109,7 @@ export default function HomePage() {
                 <CardDescription className="text-base text-slate-400">January 11th, 2026</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-slate-300 mb-4">Bring your ideas to life, then present to judges. Students can participate online, but at least one teammate must be present offline.</p>
+                <p className="text-slate-300 mb-4">Bring your ideas to life, then present to judges. At least 1 team member must be present offline; others can participate online.</p>
                 <div className="flex items-center gap-2 text-sm text-slate-400 mb-2">
                   <Clock className="h-4 w-4" />
                   <span>Hackathon: 11:00 AM - 6:00 PM</span>
@@ -384,6 +384,17 @@ export default function HomePage() {
 
             <Card className="bg-slate-900 border-slate-800">
               <CardHeader>
+                <CardTitle className="text-lg text-slate-100">Can we use AI tools during the hackathon?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-300">
+                  Yes! AI tools and assistants are allowed and encouraged. Feel free to use ChatGPT, GitHub Copilot, or any other AI tools to help you build your solution faster and more efficiently.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-900 border-slate-800">
+              <CardHeader>
                 <CardTitle className="text-lg text-slate-100">Do I need to bring my own laptop?</CardTitle>
               </CardHeader>
               <CardContent>
@@ -410,7 +421,7 @@ export default function HomePage() {
             size="lg"
             variant="secondary"
             className="bg-white text-slate-900 hover:bg-white/90"
-            onClick={() => window.open("https://google.com", "_blank")}
+            onClick={() => window.open("https://bit.ly/hostel-hacks", "_blank")}
           >
             Register Your Team Now
           </Button>
