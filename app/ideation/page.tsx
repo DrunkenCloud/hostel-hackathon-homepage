@@ -51,8 +51,9 @@ export default function IdeationPage() {
                 </p>
                 <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
                   <h4 className="font-semibold text-cyan-400 mb-2">Submission Deadline</h4>
-                  <p className="text-slate-300">January 31st, 2026 (Saturday) at 7:00 PM sharp</p>
+                  <p className="text-slate-300">January 31st, 2026 (Saturday) at 6:00 PM sharp</p>
                   <p className="text-sm text-slate-400 mt-2">Late submissions will not be accepted</p>
+                  <p className="text-sm text-green-400 mt-2">✓ Shortlisted teams will receive an email by 9:00 PM on January 31st</p>
                 </div>
               </CardContent>
             </Card>

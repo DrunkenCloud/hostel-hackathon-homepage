@@ -80,9 +80,13 @@ export default function HomePage() {
                 <p className="text-slate-300 mb-4">
                   Submit your innovative ideas through online presentation submissions.
                 </p>
-                <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
+                <div className="flex items-center gap-2 text-sm text-slate-400 mb-2">
                   <Clock className="h-4 w-4" />
-                  <span>Submissions close at 7:00 PM on January 31st</span>
+                  <span>Submissions close at 6:00 PM on January 31st</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-green-400 mb-4">
+                  <Clock className="h-4 w-4" />
+                  <span>Shortlisting results at 9:00 PM on January 31st</span>
                 </div>
                 <Link href="/ideation">
                   <Button

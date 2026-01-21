@@ -80,8 +80,9 @@ export default function RulesPage() {
                     <h4 className="font-semibold text-cyan-400 mb-2">Ideation Phase - Up to January 31st, 2026 (Saturday)</h4>
                     <ul className="space-y-2 text-sm text-slate-300">
                       <li>• Submit presentation slides (PPT/PDF) online</li>
-                      <li>• Deadline: 7:00 PM sharp on January 31st</li>
+                      <li>• Deadline: 6:00 PM sharp on January 31st</li>
                       <li>• Late submissions will not be accepted</li>
+                      <li className="text-green-400">• Shortlisted teams will receive an email at 9:00 PM on January 31st</li>
                     </ul>
                   </div>
                   <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
