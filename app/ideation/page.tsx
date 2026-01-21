@@ -25,7 +25,7 @@ export default function IdeationPage() {
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-slate-100">Ideation Phase Instructions</h1>
           <p className="text-lg text-slate-400 mt-2">
-            How to prepare and submit your innovative idea for the Hostel Hackathon
+            How to prepare and submit your innovative idea for the SNUC Hostel Hacks
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function IdeationPage() {
                 </p>
                 <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
                   <h4 className="font-semibold text-cyan-400 mb-2">Submission Deadline</h4>
-                  <p className="text-slate-300">January 10th, 2026 at 7:00 PM sharp</p>
+                  <p className="text-slate-300">January 31st, 2026 (Saturday) at 7:00 PM sharp</p>
                   <p className="text-sm text-slate-400 mt-2">Late submissions will not be accepted</p>
                 </div>
               </CardContent>

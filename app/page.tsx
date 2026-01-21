@@ -22,10 +22,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="text-center max-w-4xl mx-auto">
             <Badge className="mb-6 bg-cyan-500/10 text-cyan-400 border-cyan-500/20 text-sm font-medium">
-              January 10-11, 2026
+              January 31 - February 1, 2026
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6 bg-gradient-to-r from-cyan-400 to-orange-400 bg-clip-text text-transparent">
-              Hostel Hacks
+              SNUC Hostel Hacks
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 mb-4 text-pretty">Shiv Nadar University Chennai</p>
             <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto text-pretty">
@@ -74,7 +74,7 @@ export default function HomePage() {
                   </Badge>
                 </div>
                 <CardTitle className="text-xl text-slate-100">Ideation Phase</CardTitle>
-                <CardDescription className="text-base text-slate-400">Up to January 10th, 2026</CardDescription>
+                <CardDescription className="text-base text-slate-400">Up to January 31st, 2026 (Saturday)</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-slate-300 mb-4">
@@ -82,7 +82,7 @@ export default function HomePage() {
                 </p>
                 <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
                   <Clock className="h-4 w-4" />
-                  <span>Submissions close at 7:00 PM on January 10th</span>
+                  <span>Submissions close at 7:00 PM on January 31st</span>
                 </div>
                 <Link href="/ideation">
                   <Button
@@ -106,7 +106,7 @@ export default function HomePage() {
                   </Badge>
                 </div>
                 <CardTitle className="text-xl text-slate-100">Coding Day</CardTitle>
-                <CardDescription className="text-base text-slate-400">January 11th, 2026</CardDescription>
+                <CardDescription className="text-base text-slate-400">February 1st, 2026 (Sunday)</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-slate-300 mb-4">Bring your ideas to life, then present to judges. At least 1 team member must be present offline; others can participate online.</p>
@@ -351,7 +351,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-slate-100">
               Frequently Asked Questions
             </h2>
-            <p className="text-lg text-slate-400 text-pretty">Common questions about the Hostel Hackathon</p>
+            <p className="text-lg text-slate-400 text-pretty">Common questions about the SNUC Hostel Hacks</p>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-4">
@@ -415,7 +415,7 @@ export default function HomePage() {
             Ready to Transform Hostel Life?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto text-pretty">
-            Join the Hostel Hackathon and be part of the innovation that shapes the future of campus living.
+            Join the SNUC Hostel Hacks and be part of the innovation that shapes the future of campus living.
           </p>
           <Button
             size="lg"
@@ -433,7 +433,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-bold text-lg mb-4 text-slate-100">Hostel Hackathon</h3>
+              <h3 className="font-bold text-lg mb-4 text-slate-100">SNUC Hostel Hacks</h3>
               <p className="text-slate-400 text-sm">
                 Shiv Nadar University Chennai's premier hackathon focused on hostel automation and campus innovation.
               </p>
@@ -467,14 +467,10 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4 text-slate-100">Contact</h4>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li>hostelhacks@snuchennai.edu.in</li>
-                <li>+91 xxx xxxx xxx</li>
                 <li>Shiv Nadar University Chennai</li>
                 <li>Chennai, TN</li>
               </ul>
             </div>
-          </div>
-          <div className="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-400">
-            <p>&copy; 2024 Shiv Nadar University Chennai. All rights reserved.</p>
           </div>
         </div>
       </footer>

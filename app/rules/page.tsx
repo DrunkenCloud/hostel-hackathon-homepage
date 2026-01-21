@@ -23,7 +23,7 @@ export default function RulesPage() {
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-slate-100">Rules & Guidelines</h1>
           <p className="text-lg text-slate-400 mt-2">
-            Everything you need to know about participating in the Hostel Hackathon
+            Everything you need to know about participating in the SNUC Hostel Hacks
           </p>
         </div>
       </section>
@@ -77,15 +77,15 @@ export default function RulesPage() {
               <CardContent className="space-y-4">
                 <div className="space-y-4">
                   <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
-                    <h4 className="font-semibold text-cyan-400 mb-2">Ideation Phase - Up to January 10th, 2026</h4>
+                    <h4 className="font-semibold text-cyan-400 mb-2">Ideation Phase - Up to January 31st, 2026 (Saturday)</h4>
                     <ul className="space-y-2 text-sm text-slate-300">
                       <li>• Submit presentation slides (PPT/PDF) online</li>
-                      <li>• Deadline: 7:00 PM sharp on January 10th</li>
+                      <li>• Deadline: 7:00 PM sharp on January 31st</li>
                       <li>• Late submissions will not be accepted</li>
                     </ul>
                   </div>
                   <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
-                    <h4 className="font-semibold text-orange-400 mb-2">Coding Day - January 11th, 2026</h4>
+                    <h4 className="font-semibold text-orange-400 mb-2">Coding Day - February 1st, 2026 (Sunday)</h4>
                     <ul className="space-y-2 text-sm text-slate-300">
                       <li>• Hackathon: 11:00 AM - 6:00 PM</li>
                       <li>• Code submission deadline: 6:00 PM</li>

@@ -5,9 +5,9 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Hostel Hackathon',
-  description: 'Hostel Hackathon',
-  generator: 'Hostel Hackathon',
+  title: 'SNUC Hostel Hacks',
+  description: 'SNUC Hostel Hacks',
+  generator: 'SNUC Hostel Hacks',
 }
 
 export default function RootLayout({
