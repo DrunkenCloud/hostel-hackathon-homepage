@@ -88,9 +88,8 @@ export default function RulesPage() {
                   <div className="p-4 bg-slate-800 rounded-lg border border-slate-700">
                     <h4 className="font-semibold text-orange-400 mb-2">Coding Day - February 1st, 2026 (Sunday)</h4>
                     <ul className="space-y-2 text-sm text-slate-300">
-                      <li>• Hackathon: 11:00 AM - 6:00 PM</li>
-                      <li>• Code submission deadline: 6:00 PM</li>
-                      <li>• Presentations & Results: 6:00 PM - 7:30 PM</li>
+                      <li>• Hackathon: 9:00 AM - 5:00 PM</li>
+                      <li>• Code submission deadline: 5:00 PM</li>
                       <li>• At least 1 team member must be present offline; others can participate online</li>
                     </ul>
                   </div>

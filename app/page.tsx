@@ -113,14 +113,10 @@ export default function HomePage() {
                 <CardDescription className="text-base text-slate-400">February 1st, 2026 (Sunday)</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-slate-300 mb-4">Bring your ideas to life, then present to judges. At least 1 team member must be present offline; others can participate online.</p>
-                <div className="flex items-center gap-2 text-sm text-slate-400 mb-2">
-                  <Clock className="h-4 w-4" />
-                  <span>Hackathon: 11:00 AM - 6:00 PM</span>
-                </div>
+                <p className="text-slate-300 mb-4">Bring your ideas to life. At least 1 team member must be present offline; others can participate online.</p>
                 <div className="flex items-center gap-2 text-sm text-slate-400">
-                  <Trophy className="h-4 w-4" />
-                  <span>Presentations & Results: 6:00 PM - 7:30 PM</span>
+                  <Clock className="h-4 w-4" />
+                  <span>Hackathon: 9:00 AM - 5:00 PM</span>
                 </div>
               </CardContent>
             </Card>
