@@ -141,7 +141,7 @@ export default function HomePage() {
                   <Users className="h-8 w-8 text-cyan-400" />
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-100">3 Members Per Team</h3>
+              <h3 className="text-2xl font-bold mb-4 text-slate-100">2-3 Members Per Team</h3>
               <p className="text-lg text-slate-400 mb-6 text-pretty">
                 Collaborate with fellow Shiv Nadar University Chennai hostel students to create innovative solutions
               </p>

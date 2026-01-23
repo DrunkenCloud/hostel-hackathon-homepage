@@ -50,7 +50,7 @@ export default function RulesPage() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />
-                    Teams must consist of exactly 3 members
+                    Teams must consist of 2-3 members
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />
