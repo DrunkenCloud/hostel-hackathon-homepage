@@ -40,6 +40,15 @@ export default function HomePage() {
               >
                 Register Your Team Now
               </Button>
+              <Link href="/ideation">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-orange-500 text-orange-400 hover:bg-orange-500/10 bg-transparent w-full"
+                >
+                  View Ideation Guide
+                </Button>
+              </Link>
               <Link href="/rules">
                 <Button
                   size="lg"
@@ -428,14 +437,25 @@ export default function HomePage() {
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto text-pretty">
             Join the SNUC Hostel Hacks and be part of the innovation that shapes the future of campus living.
           </p>
-          <Button
-            size="lg"
-            variant="secondary"
-            className="bg-white text-slate-900 hover:bg-white/90"
-            onClick={() => window.open("https://forms.cloud.microsoft/r/gBeTZrh4JF", "_blank")}
-          >
-            Register Your Team Now
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button
+              size="lg"
+              variant="secondary"
+              className="bg-white text-slate-900 hover:bg-white/90"
+              onClick={() => window.open("https://forms.cloud.microsoft/r/gBeTZrh4JF", "_blank")}
+            >
+              Register Your Team Now
+            </Button>
+            <Link href="/ideation">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white/10 bg-transparent"
+              >
+                View Ideation Guide
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -456,6 +476,11 @@ export default function HomePage() {
                   <a href="#" className="hover:text-cyan-400 transition-colors">
                     Registration
                   </a>
+                </li>
+                <li>
+                  <Link href="/ideation" className="hover:text-cyan-400 transition-colors">
+                    Ideation Guide
+                  </Link>
                 </li>
                 <li>
                   <a href="#problems" className="hover:text-cyan-400 transition-colors">
