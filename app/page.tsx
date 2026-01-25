@@ -30,7 +30,7 @@ export default function HomePage() {
             <p className="text-xl md:text-2xl text-slate-300 mb-4 text-pretty">Shiv Nadar University Chennai</p>
             <p className="text-lg text-slate-400 mb-8 max-w-2xl mx-auto text-pretty">
               Transform hostel life with innovative automation solutions. Build the future of campus living through
-              technology.
+              technology. Chosen teams will be screened for internship opportunities!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -401,6 +401,17 @@ export default function HomePage() {
                 <p className="text-slate-300">
                   Yes, please bring your own laptop with necessary software installed. We'll provide power outlets,
                   internet connectivity, and workspace, but personal devices are required for development.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-900 border-slate-800">
+              <CardHeader>
+                <CardTitle className="text-lg text-slate-100">Are there any prizes or opportunities?</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-300">
+                  Yes! Chosen teams will be screened for internship opportunities and winners will have be given their awards on SNUC's Annual Day. This is a great chance to showcase your skills and potentially secure an internship position.
                 </p>
               </CardContent>
             </Card>
