@@ -86,7 +86,7 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center gap-2 text-sm text-green-400 mb-4">
                   <Clock className="h-4 w-4" />
-                  <span>Shortlisting results at 9:00 PM on January 31st</span>
+                  <span>Shortlisted teams released at 9:00 PM on January 31</span>
                 </div>
                 <Link href="/ideation">
                   <Button
