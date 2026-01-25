@@ -210,7 +210,7 @@ export default function IdeationPage() {
                   <Button
                     size="lg"
                     className="bg-cyan-600 hover:bg-cyan-700 text-white"
-                    onClick={() => window.open("https://bit.ly/hostel-hacks", "_blank")}
+                    onClick={() => window.open("https://forms.cloud.microsoft/r/gBeTZrh4JF", "_blank")}
                   >
                     <Send className="h-4 w-4 mr-2" />
                     Submit Your Idea

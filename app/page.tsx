@@ -36,7 +36,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 className="bg-cyan-600 hover:bg-cyan-700 text-white"
-                onClick={() => window.open("https://bit.ly/hostel-hacks", "_blank")}
+                onClick={() => window.open("https://forms.cloud.microsoft/r/gBeTZrh4JF", "_blank")}
               >
                 Register Your Team Now
               </Button>
@@ -432,7 +432,7 @@ export default function HomePage() {
             size="lg"
             variant="secondary"
             className="bg-white text-slate-900 hover:bg-white/90"
-            onClick={() => window.open("https://bit.ly/hostel-hacks", "_blank")}
+            onClick={() => window.open("https://forms.cloud.microsoft/r/gBeTZrh4JF", "_blank")}
           >
             Register Your Team Now
           </Button>
